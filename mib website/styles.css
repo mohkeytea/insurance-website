@@ -1,0 +1,145 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .tagline {
+    font-style: italic;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: #e60d0d;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+ 
+  
+  
+  main {
+    padding: 22px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  #home {
+    background-color: blue;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  #about {
+    background-color: red;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  #contacts {
+    background-color: blue;
+    color: #333;
+    padding: 40px;
+  }
+  
+  #contacts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #contacts li {
+    margin-bottom: 10px;
+  }
+  
+  #faq {
+    background-color: #e53935;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  #services {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+  }
+  
+  .service {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  /* styles.css */
+
+/* ...previous styles... */
+
+.service {
+    background-color: rgba(0, 0, 255, 0.2);
+    padding: 20px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .service h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    color: lightblue;
+    margin-bottom: 10px;
+  }
+  
+  /* ...other styles... */
+  
+  
+  footer {
+    background-color: blue;
+    color: #f51010;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  footer p {
+    margin: 0;
+  }  
